@@ -998,7 +998,7 @@ footer {
         .other-link {
             width: 100%;
             display: flex;
-            justify-content: space-between;
+            justify-content: flex-end;
             .privacy {
                 color: $main-color;
                 font-size: 1rem;
