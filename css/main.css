@@ -964,7 +964,7 @@ footer .container .footer-line {
 footer .container .other-link {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 footer .container .other-link .privacy {
   color: #FFF3D9;
