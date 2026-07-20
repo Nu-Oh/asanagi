@@ -966,18 +966,6 @@ footer .container .other-link {
   display: flex;
   justify-content: flex-end;
 }
-footer .container .other-link .privacy {
-  color: #FFF3D9;
-  font-size: 1rem;
-}
-footer .container .other-link .privacy:hover {
-  text-shadow: 0 0 10px #FFF3D9;
-}
-@media screen and (max-width: 1000px) {
-  footer .container .other-link .privacy {
-    font-size: 0.8rem;
-  }
-}
 footer .container .other-link .sns {
   color: #FFF3D9;
   font-size: 1.5rem;
