@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>asanagi.</title>
+    <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Swiper -->
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <!-- Slick -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1 class="header-logo">
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="asanagi.">
+                </a>
+            </h1>
+            <div class="header-links">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#stay" class="link">Stay</a>
+                        </li>
+                        <li>
+                            <a href="#morning" class="link">Morning</a>
+                        </li>
+                        <li>
+                            <a href="#cafe" class="link">Cafe</a>
+                        </li>
+                        <li>
+                            <a href="#farmtime" class="link">Farm Time</a>
+                        </li>
+                        <li>
+                            <a href="#news" class="link">News</a>
+                        </li>
+                        <li>
+                            <a href="#faq" class="link">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#access" class="link">Access</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="#reserve-contact" class="btn-reserve">Reserve & Contact</a>
+            </div>
+            <div class="toggle_btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main>
+
+        <!-- mainvisual -->
+        <section class="mainvisual">
+            <div class="mainvisual-overlay"></div>
+            <div class="mainvisual-text">
+                <h2 class="mainvisual-copy">朝の空気を、ゆっくり味わう。</h2>
+                <p class="mainvisual-subcopy">自然の音に耳を澄ませながら、心ほどける時間を。</p>
+                <a href="#reserve-contact" class="btn-reserve">Reserve & Contact</a>
+            </div>
+            <div class="scroll-down" id="scroll">
+                <a href="#stay">SCROLL</a>
+            </div>
+        </section>
+
+        <!-- stay -->
+        <section class="stay" id="stay">
+
+            <div class="container">
+                <!-- アーチ文字SVG -->
+                <svg viewBox="0 0 500 70">
+                    <defs>
+                        <path id="arch-stay"
+                        d="M 20,100 Q 250,0 480,100"/>
+                    </defs>
+                    <text font-size="130%" fill="rgba(57,80,49,0.5)"
+                            font-family="'Noto Serif JP', serif" 
+                            font-weight="700"
+                            letter-spacing="30" 
+                            text-anchor="middle">
+                        <textPath href="#arch-stay" startOffset="53%">Stay</textPath>
+                    </text>
+                </svg>
+    
+                <p class="section-subtitle">宿泊</p>
+                <p class="section-text">木のぬくもりに包まれながら、自然の気配を感じて過ごすひととき。<br>
+                    やわらかな朝日が、ゆっくりと一日の始まりを知らせてくれます。
+                </p>
+    
+                <div class="stay-info">
+                    <div class="stay-info-item">
+                        <p class="stay-info-num">4</p>
+                        <p class="stay-info-text">プランから選べます</p>
+                    </div>
+                    <div class="stay-info-item">
+                        <p class="stay-info-num">IN 15:00</p>
+                        <p class="stay-info-text">チェックイン</p>
+                    </div>
+                    <div class="stay-info-item">
+                        <p class="stay-info-num">OUT 10:00</p>
+                        <p class="stay-info-text">チェックアウト</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stay-slider">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/whitedome_outside.jpg" alt="White Dome">
+                            <div class="stay-roomname">
+                                <p class="stay-roomname-en">White Dome</p>
+                                <p class="stay-roomname-jp">ホワイトドーム</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/lotustent_outside.jpg" alt="Lotus Tent">
+                            <div class="stay-roomname">
+                                <p class="stay-roomname-en">Lotus Tent</p>
+                                <p class="stay-roomname-jp">ロータステント</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/teepeetent_outside.jpg" alt="Teepee Tent">
+                            <div class="stay-roomname">
+                                <p class="stay-roomname-en">Teepee Tent</p>
+                                <p class="stay-roomname-jp">ティーピーテント</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/cottage_outside.jpg" alt="Cottage">
+                            <div class="stay-roomname">
+                                <p class="stay-roomname-en">Cottage</p>
+                                <p class="stay-roomname-jp">コテージ</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/whitedome_outside.jpg" alt="White Dome">
+                            <div class="stay-roomname">
+                                <p class="stay-roomname-en">White Dome</p>
+                                <p class="stay-roomname-jp">ホワイトドーム</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/lotustent_outside.jpg" alt="Lotus Tent">
+                            <div class="stay-roomname">
+                                <p class="stay-roomname-en">Lotus Tent</p>
+                                <p class="stay-roomname-jp">ロータステント</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/teepeetent_outside.jpg" alt="Teepee Tent">
+                            <div class="stay-roomname">
+                                <p class="stay-roomname-en">Teepee Tent</p>
+                                <p class="stay-roomname-jp">ティーピーテント</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/cottage_outside.jpg" alt="Cottage">
+                            <div class="stay-roomname">
+                                <p class="stay-roomname-en">Cottage</p>
+                                <p class="stay-roomname-jp">コテージ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="stay.html" class="btn-reserve">プランを見る</a>
+        </section>
+
+        <!-- morning -->
+        <section class="morning" id="morning">
+            <h4 class="section-title">Morning</h4>
+            <p class="section-subtitle">朝食</p>
+            <p class="section-text">朝日を浴びながら、ゆっくり流れる時間を味わう朝。<br>
+                採れたての野菜や温かなスープとともに、<br>
+                自然のぬくもりを感じられるモーニングセットを<br>
+                2種からお選びいただけます。
+            </p>
+
+            <div class="container">
+                <div class="morning-menu">
+                    <!-- アーチ文字SVG -->
+                    <svg viewBox="0 0 500 90">
+                        <defs>
+                            <path id="arch-morning"
+                            d="M 20,100 Q 250,0 480,100"/>
+                        </defs>
+                        <text font-size="130%" fill="rgba(57,80,49,0.5)"
+                            font-family="'Noto Serif JP', serif" 
+                            font-weight="700"
+                            letter-spacing="8" 
+                            text-anchor="middle">
+                            <textPath href="#arch-morning" startOffset="50%">Morning Menu</textPath>
+                        </text>
+                    </svg>
+
+                    <div class="morning-menu-items">
+                        <div class="morning-menu-item">
+                            <img src="img/morning_sandwich.jpg" alt="Morning Sandwich">
+                            <p class="morning-menu-name">
+                                採れたて野菜のサンドイッチセット<br>
+                                （ドリンク＋サンドイッチ＋スープ）<br>
+                                1,200円（税込）
+                            </p>
+                        </div>
+                        <div class="morning-menu-item">
+                            <img src="img/morning_frenchtoast.jpg" alt="Morning French Toast">
+                            <p class="morning-menu-name">
+                                フレッシュミルクのフレンチトーストセット<br>
+                                （ドリンク＋フレンチトースト＋サラダ）<br>
+                                1,200円（税込）
+                            </p>
+                        </div>
+                    </div>
+                    <div class="morning-menu-drink">
+                        <p class="morning-menu-drinktitle">選べるドリンク</p>
+                        <p class="morning-menu-drinktext">コーヒー / 採れたて野菜スムージー / ホットミルク</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- cafe -->
+        <section class="cafe" id="cafe">
+            <!-- アーチ文字SVG -->
+            <svg viewBox="0 0 500 110">
+                <defs>
+                    <path id="arch-cafe"
+                    d="M 20,120 Q 250,0 480,120"/>
+                </defs>
+                <text font-size="130%" fill="rgba(255,243,217,0.3)"
+                        font-family="'Noto Serif JP', serif" 
+                        font-weight="700"
+                        letter-spacing="3" 
+                        text-anchor="middle">
+                    <textPath href="#arch-cafe" startOffset="50%">Honest flavors from the field.</textPath>
+                </text>
+            </svg>
+                
+            <h4 class="section-title">Cafe</h4>
+            <p class="section-subtitle">カフェ</p>
+            <p class="section-text">農園で採れた野菜やミルクを使った、優しい味わいと<br>
+                素材のぬくもりを感じながら、ゆっくりとお過ごしください。<br>
+            </p>
+
+            <ul class="cafe-items">
+                <li>
+                    <div class="cafe-item">
+                        <div class="cafe-label">
+                            <span class="cafe-label-text">Food</span>
+                        </div>
+                        <div class="cafe-inner">
+                            <div class="cafe-image">
+                                <img src="img/saladbowl.jpg" alt="Salad Bowl">
+                            </div>
+                            <p class="cafe-menu-name">サラダボウル<br>
+                                980円（税込）
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="cafe-item">
+                        <div class="cafe-label">
+                            <span class="cafe-label-text">Food</span>
+                        </div>
+                        <div class="cafe-inner">
+                            <div class="cafe-image">
+                                <img src="img/frenchfry.jpg" alt="French Fry">
+                            </div>
+                            <p class="cafe-menu-name">フレンチフライ<br>
+                                700円（税込）
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="cafe-item">
+                        <div class="cafe-label">
+                            <span class="cafe-label-text">Food</span>
+                        </div>
+                        <div class="cafe-inner">
+                            <div class="cafe-image">
+                                <img src="img/bagnacauda.jpg" alt="Barnya Cauda">
+                            </div>
+                            <p class="cafe-menu-name">バーニャカウダ<br>
+                                1,200円（税込）
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="cafe-item">
+                        <div class="cafe-label">
+                            <span class="cafe-label-text">Desert</span>
+                        </div>
+                        <div class="cafe-inner">
+                            <div class="cafe-image">
+                                <img src="img/carrotcake.jpg" alt="Carrot Cake">
+                            </div>
+                            <p class="cafe-menu-name">キャロットケーキ<br>
+                                680円（税込）
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="cafe-item">
+                        <div class="cafe-label">
+                            <span class="cafe-label-text">Desert</span>
+                        </div>
+                        <div class="cafe-inner">
+                            <div class="cafe-image">
+                                <img src="img/cheesecake.jpg" alt="Cheesecake">
+                            </div>
+                            <p class="cafe-menu-name">チーズケーキ<br>
+                                680円（税込）
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="cafe-item">
+                        <div class="cafe-label">
+                            <span class="cafe-label-text">Desert</span>
+                        </div>
+                        <div class="cafe-inner">
+                            <div class="cafe-image">
+                                <img src="img/milkgelato.jpg" alt="Milk Gelato">
+                            </div>
+                            <p class="cafe-menu-name">ミルクジェラート<br>
+                                500円（税込）
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="cafe-item">
+                        <div class="cafe-label">
+                            <span class="cafe-label-text">Drink</span>
+                        </div>
+                        <div class="cafe-inner">
+                            <div class="cafe-image">
+                                <img src="img/coffee.jpg" alt="Coffee">
+                            </div>
+                            <p class="cafe-menu-name">コーヒー<br>
+                                390円（税込）
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="cafe-item">
+                        <div class="cafe-label">
+                            <span class="cafe-label-text">Drink</span>
+                        </div>
+                        <div class="cafe-inner">
+                            <div class="cafe-image">
+                                <img src="img/cafelatte.jpg" alt="Cafe Latte">
+                            </div>
+                            <p class="cafe-menu-name">カフェラテ<br>
+                                390円（税込）
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="cafe-item">
+                        <div class="cafe-label">
+                            <span class="cafe-label-text">Drink</span>
+                        </div>
+                        <div class="cafe-inner">
+                            <div class="cafe-image">
+                                <img src="img/greensmoothy.jpg" alt="Green Smoothie">
+                            </div>
+                            <p class="cafe-menu-name">グリーンスムージー<br>
+                                590円（税込）
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            
+        </section>
+
+        <!-- farmtime -->
+        <section class="farmtime" id="farmtime">
+            <div class="farmtime-overlay"></div>
+            <div class="farmtime-text">
+                <h4 class="section-title">Farm Time</h4>
+                <p class="section-subtitle">農業体験</p>
+                <p class="section-text">土に触れ、自然のぬくもりを感じるひととき。<br>
+                    野菜の収穫や乳搾り体験を通して、<br>
+                    心がふっと軽くなる時間をお楽しみください。
+                </p>
+            </div>
+            <div class="farmtime-inner">
+                <div class="farmtime-item farmtime-item--left">
+                    <div class="farmtime-item-text">
+                        <p class="farmtime-num">01</p>
+                        <h5 class="farmtime-title">野菜収穫体験</h5>
+                        <p class="farmtime-desc">
+                            畑で育てた旬の野菜を自分の手で収穫。<br>
+                            採れたての野菜はそのまま夕食でお召し上がりください。<br>
+                        </p>
+                        <p class="farmtime-desc">
+                            約80種類の野菜の収穫を体験できます。<br>
+                            農園スタッフがサポートしますので<br>
+                            未経験の方でも安心してご参加いただけます。<br>
+                            ぜひ、野菜のおいしさを満喫してください。
+                        </p>
+                        <p class="farmtime-meta">所要時間：60分 </p>
+                    </div>
+                    <img src="img/farmtime_tomato.jpg" alt="FarmTime 野菜収穫体験">
+                </div>
+                <div class="farmtime-item farmtime-item--right">
+                    <div class="farmtime-item-text">
+                        <p class="farmtime-num">02</p>
+                        <h5 class="farmtime-title">乳搾り体験</h5>
+                        <p class="farmtime-desc">
+                            牛のやさしいぬくもりを感じながら、<br>
+                            搾りたてミルクの豊かな風味をご体験ください。<br>
+                        </p>
+                        <p class="farmtime-desc">
+                            搾り方に少しコツが必要ですが、<br>
+                            スタッフがサポートしますので<br>
+                            未経験の方でも安心してご参加いただけます。
+                        </p>
+                        <p class="farmtime-meta">所要時間：30分 </p>
+                    </div>
+                    <img src="img/farmtime_cow.jpg" alt="FarmTime 乳搾り体験">
+                </div>
+            </div>
+        </section>
+
+        <!-- news -->
+        <section class="news" id="news">
+            <div class="wrapper">
+                <!-- 円形アーチSVG -->
+                <div class="news-svg-wrap">
+                    <svg class="arch-svg arch-svg--rotate" viewBox="-10 -10 200 200">
+                        <defs>
+                        <path id="circle-news"
+                            d="M 90,90 m -72,0 a 72,72 0 1,1 144,0 a 72,72 0 1,1 -144,0"/>
+                        </defs>
+                        <text font-family="'Noto Serif JP', serif" font-weight="300"
+                            font-size="36" fill="rgba(57,80,49,0.30)" letter-spacing="12">
+                        <textPath href="#circle-news">Latest updates.</textPath>
+                        </text>
+                    </svg>
+                    <svg class="arch-svg arch-svg--center" viewBox="0 0 180 180">
+                        <text x="90" y="84" text-anchor="middle"
+                            font-family="'Noto Serif JP', serif" font-weight="600"
+                            font-size="24" fill="rgba(57,80,49,1)" letter-spacing="2">News</text>
+                        <text x="90" y="110" text-anchor="middle"
+                            font-family="'Noto Serif JP', serif" font-weight="600"
+                            font-size="12" fill="rgba(57,80,49,1)" letter-spacing="4">― お知らせ ―</text>
+                    </svg>
+                </div>
+    
+                <ul class="news-list">
+                    <li class="news-item">
+                        <a href="item01.html">
+                            <time datetime="2026-06-02" class="news-date">2026.06.02</time>
+                            <span class="news-tag">モーニング</span>
+                            <p class="news-title">夏季限定モーニング始めました</p>
+                        </a>
+                    </li>
+                    <li class="news-item">
+                        <a href="item02.html">
+                            <time datetime="2026-05-25" class="news-date">2026.05.25</time>
+                            <span class="news-tag">モーニング</span>
+                            <p class="news-title">季節のスープが新しくなりました</p>
+                        </a>
+                    </li>
+                    <li class="news-item">
+                        <a href="item03.html">
+                            <time datetime="2026-04-05" class="news-date">2026.04.05</time>
+                            <span class="news-tag">カフェ</span>
+                            <p class="news-title">桜ティーラテが登場します</p>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+
+        <!-- faq -->
+        <section class="faq" id="faq">
+            <div class="wrapper">
+                <!-- 円形アーチSVG -->
+                <div class="faq-svg-wrap">
+                    <svg class="arch-svg arch-svg--rotate" viewBox="-10 -10 200 200">
+                        <defs>
+                        <path id="circle-faq"
+                            d="M 90,90 m -72,0 a 72,72 0 1,1 144,0 a 72,72 0 1,1 -144,0"/>
+                        </defs>
+                        <text font-family="'Noto Serif JP', serif" font-weight="300"
+                            font-size="36" fill="rgba(57,80,49,0.30)" letter-spacing="8">
+                        <textPath href="#circle-faq">Frequently asked.</textPath>
+                        </text>
+                    </svg>
+                    <svg class="arch-svg arch-svg--center" viewBox="0 0 180 180">
+                        <text x="90" y="84" text-anchor="middle"
+                            font-family="'Noto Serif JP', serif" font-weight="600"
+                            font-size="24" fill="rgba(57,80,49,1)" letter-spacing="2">FAQ</text>
+                        <text x="90" y="110" text-anchor="middle"
+                            font-family="'Noto Serif JP', serif" font-weight="600"
+                            font-size="12" fill="rgba(57,80,49,1)" letter-spacing="4">― よくある質問 ―</text>
+                    </svg>
+                </div>
+    
+                <div class="faq-accordion">
+                    <details class="faq-acc">
+                        <summary class="faq-acc-head">チェックイン・チェックアウトは何時ですか？</summary>
+                        <p class="faq-acc-cont">チェックインは15:00～、チェックアウトは10:00となっております。ご相談も承りますので、お気軽にご相談ください。</p>
+                    </details>
+                    <details class="faq-acc">
+                        <summary class="faq-acc-head">お支払方法は何が利用できますか？</summary>
+                        <p class="faq-acc-cont">現金・クレジットカード（VISA・MasterCard・JCB）・PayPayがご利用いただけます。</p>
+                    </details>
+                    <details class="faq-acc">
+                        <summary class="faq-acc-head">Wi-Fiはありますか？</summary>
+                        <p class="faq-acc-cont">全施設に無料Wi-Fiをご用意しております。</p>
+                    </details>
+                    <details class="faq-acc">
+                        <summary class="faq-acc-head">アメニティは何がありますか？</summary>
+                        <p class="faq-acc-cont">タオル・歯ブラシ・クレンジング・洗顔・シャンプー・トリートメント・ドライヤーをご用意しております。</p>
+                    </details>
+                    <details class="faq-acc">
+                        <summary class="faq-acc-head">トイレやお風呂は併設されていますか？</summary>
+                        <p class="faq-acc-cont">各宿泊施設にトイレ・バスルームが備わっております。</p>
+                    </details>
+                    <details class="faq-acc">
+                        <summary class="faq-acc-head">ペットとの宿泊は可能ですか？</summary>
+                        <p class="faq-acc-cont">ペットの同伴は事前にお知らせいただければ可能ですので、ぜひ予約時にお問い合わせください。</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- reserve&contact -->
+        <section class="reserve-contact" id="reserve-contact">
+            <div class="reserve-contact-overlay"></div>
+            <div class="reserve-contact-text">
+                <h4 class="section-title">Reserve & Contact</h4>
+                <p class="section-subtitle">ご予約・お問い合わせ</p>
+                <a href="contact.html" class="btn-reserve">ご予約・お問い合わせはこちらから</a>
+            </div>
+        </section>
+
+        <!-- access -->
+        <section class="access" id="access">
+            <h4 class="section-title">Access</h4>
+            <p class="section-subtitle">アクセス</p>
+            <div class="access-item">
+                <div class="access-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102378.30553448109!2d137.84575009999998!3d36.69079835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff7d1e34aa1fee7%3A0xd024f55aeb1b3513!2z6ZW36YeO55yM5YyX5a6J5puH6YOh55m96aas5p2R!5e0!3m2!1sja!2sjp!4v1781791768250!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="access-info">
+                    <div class="access-info-item">
+                        <h6 class="info-title">お車でお越しのお客様</h6>
+                        <p class="info-text">無料駐車場がございます。</p>
+                    </div>
+                    <div class="access-info-item">
+                        <h6 class="info-title">電車でお越しのお客様</h6>
+                        <p class="info-text">朝凪駅から無料のシャトルバスが運行しております。<br>
+                            ご予約不要でご利用いただけます。
+                        </p>
+                    </div>
+                    <div class="access-info-item">
+                        <h6 class="info-title">バスでお越しのお客様</h6>
+                        <p class="info-text">朝凪バスターミナルから徒歩3分です。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-watermark">asanagi.</div>
+            <div class="footer-text">
+                <p class="footer-text-title">asanagi.</p>
+                <p class="footer-text-subtitle">朝の空気を、ゆっくり味わう。</p>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#stay" class="link">Stay</a>
+                    </li>
+                    <li>
+                        <a href="#morning" class="link">Morning</a>
+                    </li>
+                    <li>
+                        <a href="#cafe" class="link">Cafe</a>
+                    </li>
+                    <li>
+                        <a href="#farmtime" class="link">Farm Time</a>
+                    </li>
+                    <li>
+                        <a href="#news" class="link">News</a>
+                    </li>
+                    <li>
+                        <a href="#faq" class="link">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#access" class="link">Access</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#reserve-contact" class="btn-reserve">Reserve & Contact</a>
+            <div class="footer-line"></div>
+            <div class="sns-link">
+                <a href="https://www.instagram.com" class="sns">Instagram</a>
+            </div>
+        </div>
+    </footer>
+    <!-- 読み込み順は1.jQuery,2.Slick,3.main.js -->
+    <!-- SlickがjQueryに依存しているので先に読み込み、main.js（自分のコード）は最後 -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

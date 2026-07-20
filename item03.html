@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>asanagi.</title>
+    <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Slick -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1 class="header-logo">
+                <a href="#">
+                    <img src="img/logo.svg" alt="asanagi.">
+                </a>
+            </h1>
+            <div class="header-links">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#stay" class="link">Stay</a>
+                        </li>
+                        <li>
+                            <a href="#morning" class="link">Morning</a>
+                        </li>
+                        <li>
+                            <a href="#cafe" class="link">Cafe</a>
+                        </li>
+                        <li>
+                            <a href="#farmtime" class="link">Farm Time</a>
+                        </li>
+                        <li>
+                            <a href="#news" class="link">News</a>
+                        </li>
+                        <li>
+                            <a href="#faq" class="link">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#access" class="link">Access</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="#reserve-contact" class="btn-reserve">Reserve & Contact</a>
+            </div>
+            <div class="toggle_btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main>
+        <div class="news-item-page">
+            <div class="container">
+                <h2 class="page-title">桜ティーラテが登場します</h2>
+                <div class="news-img">
+                    <img src="img/news_sakuralatte.jpg" alt="桜ティーラテ">
+                </div>
+                <div class="news-text">
+                    <p>華やかな桜の香りと、ミルクの優しい甘みが溶け合う春のティーラテ。</p>
+                    <p>ほっと一息つきたい朝のティータイムに、彩りと癒やしを添える一杯です。</p>
+                    <p>ホット・アイスからお選びいただけます。</p>
+                </div>
+                <p class="item-price">各400円（税込み）</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-watermark">asanagi.</div>
+            <div class="footer-text">
+                <p class="footer-text-title">asanagi.</p>
+                <p class="footer-text-subtitle">朝の空気を、ゆっくり味わう。</p>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#stay" class="link">Stay</a>
+                    </li>
+                    <li>
+                        <a href="#morning" class="link">Morning</a>
+                    </li>
+                    <li>
+                        <a href="#cafe" class="link">Cafe</a>
+                    </li>
+                    <li>
+                        <a href="#farmtime" class="link">Farm Time</a>
+                    </li>
+                    <li>
+                        <a href="#news" class="link">News</a>
+                    </li>
+                    <li>
+                        <a href="#faq" class="link">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#access" class="link">Access</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#reserve-contact" class="btn-reserve">Reserve & Contact</a>
+            <div class="footer-line"></div>
+            <div class="sns-link">
+                <a href="https://www.instagram.com" class="sns">Instagram</a>
+            </div>
+        </div>
+    </footer>
+    <!-- 読み込み順は1.jQuery,2.Slick,3.main.js -->
+    <!-- SlickがjQueryに依存しているので先に読み込み、main.js（自分のコード）は最後 -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
