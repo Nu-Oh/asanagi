@@ -1157,6 +1157,12 @@ main .stay-info-detail .container .stay-table tr th, main .stay-info-detail .con
   vertical-align: top;
   text-align: left;
 }
+@media screen and (max-width: 767px) {
+  main .stay-info-detail .container .stay-table tr th, main .stay-info-detail .container .stay-table tr td {
+    padding: 15px;
+    font-size: 0.8rem;
+  }
+}
 main .stay-info-detail .container .btn-reserve {
   width: 180px;
   margin-inline: auto;

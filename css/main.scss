@@ -1172,6 +1172,10 @@ main {
                         font-size: 1rem;
                         vertical-align: top;
                         text-align: left;
+                        @include sp {
+                            padding: 15px;
+                            font-size: 0.8rem;
+                        }
                     }
                 }
             }
