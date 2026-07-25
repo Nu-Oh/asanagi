@@ -1174,13 +1174,13 @@ main .stay-info-detail .container .btn-reserve:hover, main .stay-info-detail .co
 }
 
 .news-single-page {
-  background-color: #FFF3D9;
-  padding: 100px;
+  background-color: #395031;
+  padding: 6% 4%;
 }
 .news-single-page .container {
   max-width: 800px;
-  background-color: #fff;
-  padding: 50px;
+  background-color: #FFF3D9;
+  padding: 6%;
 }
 .news-single-page .container .page-title {
   font-size: 1.6rem;
@@ -1207,6 +1207,14 @@ main .stay-info-detail .container .btn-reserve:hover, main .stay-info-detail .co
   color: #463F33;
   font-weight: bold;
   text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .news-single-page .container .page-title {
+    font-size: 1.2rem;
+  }
+  .news-single-page .container .news-text p {
+    font-size: 0.9rem;
+  }
 }
 
 .contact {
@@ -1257,8 +1265,4 @@ main .stay-info-detail .container .btn-reserve:hover, main .stay-info-detail .co
   color: #395031;
   box-shadow: inset 180px 0 0 0 #FFF3D9;
   border: 1px solid #FFF3D9;
-}
-
-.privacy {
-  color: #463F33;
 }/*# sourceMappingURL=main.css.map */

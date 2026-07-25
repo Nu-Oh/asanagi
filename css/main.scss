@@ -1194,17 +1194,16 @@ main {
 
 // item.html
 .news-single-page {
-    background-color: $main-color;
-    padding: 100px;
+    background-color: $accent-color;
+    padding: 6% 4%;
     .container {
         max-width: 800px;
-        background-color: #fff;
-        padding: 50px;
+        background-color: $main-color;
+        padding: 6%;
         .page-title { 
             font-size: 1.6rem;
             color: $sub-color;
             text-align: center;
-
         }
         .news-img {
             width: 100%;
@@ -1226,6 +1225,16 @@ main {
             color: $sub-color;
             font-weight: bold;
             text-align: center;
+        }
+        @include sp {
+            .page-title {
+                font-size: 1.2rem;
+            }
+            .news-text {
+                p {
+                    font-size: 0.9rem;
+                }
+            }
         }
     }
 }
@@ -1286,12 +1295,3 @@ main {
         }
     }
 }
-
-// privacy^policy
-.privacy {
-    color: $sub-color;
-    // 余白など調整
-}
-
-// 404
-// デザイン入れる（大きい404のロゴとか）
