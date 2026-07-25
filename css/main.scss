@@ -143,10 +143,15 @@ img {
 
 // header
 header {
-    background: $sub-color;
+    background: rgba($sub-color, 1);
     height: 80px;
     padding: 10px;
     position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
     .container {
         display: flex;
         justify-content: space-between;
@@ -161,7 +166,6 @@ header {
         .header-links {
             display: flex;
             align-items: center;
-            // transition: opacity 0.4s ease, visibility 0.4s ease;
             @include tab {
                 position: fixed;
                 top: 0;
@@ -288,7 +292,7 @@ header {
 
 // main
 main {
-
+    padding-top: 80px;
     // mainvisual
     .mainvisual {
         background: url("../img/mainvisual.jpg") no-repeat center;
@@ -671,6 +675,7 @@ main {
                     width: 50%;
                     height: 300px;
                     object-fit: cover;
+                    object-position: center 35%;
                     @include tab {
                         margin-top: 20px;
                     }

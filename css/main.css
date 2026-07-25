@@ -154,10 +154,15 @@ img {
   }
 }
 header {
-  background: #463F33;
+  background: #463f33;
   height: 80px;
   padding: 10px;
   position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
 }
 header .container {
   display: flex;
@@ -285,6 +290,9 @@ header .container .toggle_btn span:nth-child(3) {
   }
 }
 
+main {
+  padding-top: 80px;
+}
 main .mainvisual {
   background: url("../img/mainvisual.jpg") no-repeat center;
   background-size: cover;
@@ -647,6 +655,8 @@ main .farmtime .farmtime-inner .farmtime-item img {
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: center 35%;
+     object-position: center 35%;
 }
 @media screen and (max-width: 1000px) {
   main .farmtime .farmtime-inner .farmtime-item img {
