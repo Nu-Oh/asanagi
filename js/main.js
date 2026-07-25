@@ -65,6 +65,14 @@ $(function () {
           slidesToShow: 3,
         },
       },
+      {
+        breakpoint: 767,
+        settings: {
+          centerMode: true,
+          centerPadding: "2%",
+          slidesToShow: 1,
+        },
+      },
     ],
   });
 
