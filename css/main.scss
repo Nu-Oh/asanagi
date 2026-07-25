@@ -570,6 +570,15 @@ main {
                             // テキスト折り返し禁止のプロパティ（短いテキストを1行に固定したい時に使う）
                             white-space: nowrap;
                         }
+                        @include sp {
+                            left: 10px;
+                            width: 70px;
+                            height: 80px;
+                            .cafe-label-text {
+                                font-size: 0.8rem;
+                                padding: 5px 2px;
+                            }
+                        }
                     }
                     .cafe-inner {
                         .cafe-image {
@@ -580,6 +589,9 @@ main {
                         }
                         .cafe-menu-name {
                             margin-block: 10px;
+                            @include sp {
+                                font-size: 0.8rem;
+                            }
                         }
                     }
                 }

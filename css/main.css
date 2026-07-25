@@ -563,6 +563,17 @@ main .cafe .cafe-items li .cafe-item .cafe-label .cafe-label-text {
   line-height: 1;
   white-space: nowrap;
 }
+@media screen and (max-width: 767px) {
+  main .cafe .cafe-items li .cafe-item .cafe-label {
+    left: 10px;
+    width: 70px;
+    height: 80px;
+  }
+  main .cafe .cafe-items li .cafe-item .cafe-label .cafe-label-text {
+    font-size: 0.8rem;
+    padding: 5px 2px;
+  }
+}
 main .cafe .cafe-items li .cafe-item .cafe-inner .cafe-image img {
   width: 100%;
   -o-object-fit: cover;
@@ -570,6 +581,11 @@ main .cafe .cafe-items li .cafe-item .cafe-inner .cafe-image img {
 }
 main .cafe .cafe-items li .cafe-item .cafe-inner .cafe-menu-name {
   margin-block: 10px;
+}
+@media screen and (max-width: 767px) {
+  main .cafe .cafe-items li .cafe-item .cafe-inner .cafe-menu-name {
+    font-size: 0.8rem;
+  }
 }
 main .cafe .cafe-items .slick-slide {
   margin-inline: 16px;
