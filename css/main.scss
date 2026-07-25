@@ -93,6 +93,13 @@ img {
     }
 }
 
+.sp-only {
+    display: none;
+    @include sp {
+        display: inline;
+    }
+}
+
 // mainvisualのスクロールアニメーション
 @keyframes circlemove{
     0%{bottom:160px;}
@@ -386,6 +393,12 @@ main {
                     bottom: -20px;
                     left: 50%;
                     transform: translateX(-50%);
+                }
+                .sp-only {
+                    display: none;
+                    @include sp {
+                        display: inline;
+                    }
                 }
             }
             .stay-info {
@@ -963,6 +976,10 @@ footer {
                 font-size: 4rem;
                 letter-spacing: 2rem;
             }
+            @include sp {
+                font-size: 4rem;
+                letter-spacing: 1.5rem;
+            }
         }
         .footer-text {
             position: relative;
@@ -981,6 +998,12 @@ footer {
             ul {
                 display: flex;
                 gap: 40px;
+                @include sp {
+                    flex-wrap: wrap;
+                    li {
+                        font-size: 0.9rem;
+                    }
+                }
             }
         }
         .btn-reserve {
